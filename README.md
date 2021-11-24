@@ -1,17 +1,17 @@
 # webapi-CS
-CRUD actions in ASP.NET Core
+CRUD actions in ASP.NET Core<br><br>
 
-dotnet run
-httprepl https://localhost:{PORT}
-ls
-cd {endpoint}
-ls <see list action>
+dotnet run <br>
+httprepl https://localhost:{PORT}<br>
+ls<br>
+cd {endpoint}<br>
+ls <see list action><br><br>
 
-create
-post -c "{"name":"Hawaii", "isGlutenFree":false}"
+create<br>
+post -c "{"name":"Hawaii", "isGlutenFree":false}"<br><br>
 
-update
-put 3 -c  "{"id": 3, "name":"Hawaiian", "isGlutenFree":false}"
+update<br>
+put 3 -c  "{"id": 3, "name":"Hawaiian", "isGlutenFree":false}"<br><br>
 
-get with id
-get 3
+get with id<br>
+get 3<br>
